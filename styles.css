@@ -1,0 +1,174 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+#map-container {
+    flex: 2;
+    background-color: #fff;
+    padding: 20px;
+}
+
+
+#traffic-status {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.junction {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 10px 0;
+}
+
+
+#controls {
+    flex: 1;
+    background-color: #eee;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+
+#controls h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+
+.control-group {
+    margin-bottom: 20px;
+}
+
+
+.traffic-light-control {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.traffic-light-control label {
+    width: 150px;
+}
+
+.traffic-light-control select {
+    width: 100px;
+    padding: 5px;
+}
+
+
+.sensor-control {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.sensor-control label {
+    width: 150px;
+}
+
+.sensor-control input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+.junction {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    transition: background-color 0.5s;
+}
+
+.junction:hover {
+    background-color: #f7f7f7;
+}
+
+.junction h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.junction p {
+    font-size: 1em;
+
+    margin: 5px 0;
+}
+
+
+.junction span {
+    transition: color 0.5s, opacity 0.5s;
+}
+
+.control-group h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+
+.component {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+
+.component:hover {
+    background-color: #e1e1e1;
+    transform: scale(1.02);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+
+footer a:hover {
+    text-decoration: underline;
+}
+.traffic-light-control select
+{
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
